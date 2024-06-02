@@ -1,4 +1,3 @@
-
 #contact {
     display: flex;
     padding: 2rem;
@@ -21,19 +20,13 @@
     position: relative;
     z-index: 1;
     color: black;
-    background-color: #9BA3BA;
-
+    box-shadow: 0.8rem 0.8rem #9BA3BA;
+    background-color: #7CC9D7;
 }
 
-#contact .desc .content::before {
-    background-color: #7CC9D7;
-    height: 100%;
-    width: 100%;
-    top: 1rem;
-    left: 1rem;
-    position: absolute;
-    content: "";
-    z-index: -1;
+#contact .desc  .call-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
 }
 
 #contact .desc h3 {
@@ -51,7 +44,12 @@
     justify-content: center;
 }
 
-#contact .form-container form{
+#contact .form-container form p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+}
+
+#contact .form-container form {
     background-color: #D9F7F4;
     display: flex;
     justify-content: center;
@@ -61,11 +59,9 @@
     width: 50%;
 }
 
-#contact .form-container form{
-    
-}
+#contact .form-container form {}
 
-input{
+input {
     border-radius: 16px;
     outline: none;
     border: none;
@@ -73,24 +69,24 @@ input{
     background-color: #DDEBE9;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: center;
 }
 
-button{
+button {
     background-color: #1A1855;
     color: white;
     border-radius: 16px;
     padding: 1rem;
     width: 50%;
     font-size: 1.1rem;
-    border: none;   
+    border: none;
 }
 
 @media screen and (max-width: 900px) {
-    
-    #contact{
+
+    #contact {
         flex-direction: column;
         padding: 0.5rem;
     }
@@ -99,11 +95,9 @@ button{
         width: 100%;
     }
 
-    .form-container{
+    .form-container {}
 
-    }
-
-    #contact .form-container form{
+    #contact .form-container form {
         width: 80%;
     }
 
