@@ -1,7 +1,7 @@
 * {
     margin: 0;
     font-family: poppins-semibold, poppins, sans-serif;
-    ;
+    color: #1A1855;
 }
 
 .merriweather-bold {
@@ -13,4 +13,32 @@
 .googleMap{
     height: 100vh;
     width: 100%;
+}
+
+#footer{
+    background-color: #DCF6F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+#footer img {
+    height: 10rem;
+    width: 10rem;
+}
+
+#footer .social-media{
+    display: flex;
+    gap: 1rem;
+}
+
+#footer .social-media img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+#footer .copyright{
+    font-style: italic;
 }
