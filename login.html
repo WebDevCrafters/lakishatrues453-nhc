@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginStyles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="close-icon">
+            <img src="./assets/close-icon.svg" alt="">
+        </div>
+
+        <h2>Log In</h2>
+        <div class="options">
+            New to this site?
+            <a href="signup.html">
+                Sign Up</a>
+        </div>
+        <form class="form-container" action="#" method="post">
+            <div class="input-container">
+                <label class="label" for="email">Email *</label>
+                <input required type="text" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="input-container">
+                <label class="label" for="password">Password *</label>
+                <input required type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <div class="options password">
+                <a href="reset-password.html">Forgot Password?</a>
+            </div>
+            <input type="submit" value="Log In">
+        </form>
+        <div class="sign-in-option-container">
+            <p>or Log In with</p>
+            <div class="image-container">
+                <img src="./assets/google-icon.svg" alt="">
+                <img src="./assets/facebook-icon.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
