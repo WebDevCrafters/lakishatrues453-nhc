@@ -20,7 +20,7 @@
 
 .brand-name h1 {
     color: #1A1855;
-    font-size: 65px;
+    font-size: 4rem;
 }
 
 
@@ -44,7 +44,6 @@
 
 .navbar .routes li {
     cursor: pointer;
-    padding: 10px 24px;
     list-style: none;
 }
 
@@ -55,14 +54,19 @@
 .navbar .routes .selected a {
     color: white;
 }
+.navbar .routes .member-portal{
+    display: none;
+}
 
 .navbar .routes li a {
+    padding: 10px 24px;
     color: black;
-    width: 100%;
     letter-spacing: 0.05em;
     text-decoration: none;
     font-weight: 900;
     font-size: 16;
+    display: block;
+    text-align: center;
 }
 
 .navbar .routes li a:hover {}
@@ -79,7 +83,7 @@
     gap: 10px;
 }
 
-.navbar .other-links li img{
+.navbar .other-links li img {
     height: 26px;
     width: 26px;
 }
@@ -87,4 +91,91 @@
 .navbar .other-links li a {
     color: white;
     text-decoration: none;
+}
+
+.menu{
+    display: none;
+}
+
+@media screen and (max-width: 930px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar img{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .navbar .brand-name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .brand-name .first{
+        font-size: 3.5rem;
+    }
+
+    .navbar .brand-name .second{
+        color: rgb(24, 80, 158);
+        font-size: 3rem;
+    }
+
+    .navbar .routes {
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        width: 100%;
+        padding: 5rem 1rem;
+        height: calc(100% - 10rem);
+    }
+    
+    .navbar .routes .member-portal{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar .routes .member-portal img{
+        height: 26px;
+        width: 26px;
+    }
+
+    .navbar .other-links{
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar .other-links li{
+        margin: 0;
+    }
+
+    .navbar .other-links .member-portal{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        background-color: #1A1855;
+        position: absolute;
+        height: 3.5rem;
+        width: 3.5rem;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .menu img{
+        height: calc(100% - 1rem);
+        width: calc(100% - 1rem);
+        padding: 0.5rem;
+    }
+
 }
