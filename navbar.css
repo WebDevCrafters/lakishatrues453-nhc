@@ -6,9 +6,21 @@
     justify-content: center;
 }
 
+.navbar img {
+    width: 230px;
+    height: 230px;
+}
+
+.brand-and-routes {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
 .brand-name h1 {
     color: #1A1855;
-    font-size: 72px;
+    font-size: 65px;
 }
 
 
@@ -32,18 +44,47 @@
 
 .navbar .routes li {
     cursor: pointer;
-    padding: 10px;
-    margin: 4px;
+    padding: 10px 24px;
     list-style: none;
 }
 
+.navbar .routes .selected {
+    background-color: #36ACC0;
+}
+
+.navbar .routes .selected a {
+    color: white;
+}
+
 .navbar .routes li a {
+    color: black;
     width: 100%;
     letter-spacing: 0.05em;
-    color: black;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 16;
 }
 
 .navbar .routes li a:hover {}
+
+.navbar .other-links {}
+
+.navbar .other-links li {
+    list-style: none;
+    background-color: #1A1855;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .other-links li img{
+    height: 26px;
+    width: 26px;
+}
+
+.navbar .other-links li a {
+    color: white;
+    text-decoration: none;
+}
