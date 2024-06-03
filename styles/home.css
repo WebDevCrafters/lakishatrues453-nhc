@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 800px) {
     .home-container {
-        height: 600px;
+        height: unset;
     }
 
     .home-banner {
@@ -94,7 +94,7 @@
 
 @media screen and (max-width: 600px) {
     .home-container {
-        height: 250px;
+        height: unset;
     }
 
     .home-banner {
