@@ -1,0 +1,102 @@
+#caregiver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    background-color: #E9F7F8;
+    gap: 1.5rem;
+}
+
+#caregiver img {
+    height: 350px;
+    position: relative;
+}
+
+#caregiver .image-container {
+    position: relative;
+}
+
+#caregiver .image-container::after {
+    content: "BE A PART OF OUR FAMILY !";
+    background-color: rgba(0, 200, 255, 0.33);
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    bottom: -3.5rem;
+    left: 0;
+    font-weight: 900;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.8rem 0.8rem #9BA3BA;
+}
+
+#caregiver .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+#caregiver .desc .heading {
+    padding: 1rem;
+    letter-spacing: 0.5rem;
+}
+
+#caregiver .desc .heading p {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+#caregiver .desc .heading h3 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#caregiver .desc>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+#caregiver .desc button {
+    background-color: #1A1855;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    width: 233px;
+}
+
+@media screen and (max-width:900px) {
+    #caregiver {
+        flex-direction: column;
+    }
+
+    #caregiver .desc {
+        width: unset;
+        padding: 1.3rem;
+    }
+    #caregiver .desc .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #caregiver .image-container img {
+        width: 100%;
+        height: unset;
+    }
+
+    #caregiver .image-container::after {
+        height: 3rem;
+        font-size: 1rem;
+        bottom: -2rem;
+        box-shadow: 0.3rem 0.3rem #9BA3BA;
+
+    }
+}
