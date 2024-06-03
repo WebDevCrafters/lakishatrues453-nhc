@@ -130,7 +130,7 @@
         right: 0;
         width: 100%;
         padding: 5rem 1rem;
-        height: calc(100% - 10rem);
+        z-index: 1;
     }
 
     .navbar .routes .member-portal {
@@ -171,6 +171,7 @@
         width: 3.5rem;
         top: 1rem;
         right: 1rem;
+        z-index: 2;
     }
 
     .menu img {
