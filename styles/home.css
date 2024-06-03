@@ -1,23 +1,18 @@
-/* .section-one {
-    height: 100vh;
-    background-color: blue;
-} */
+.home-container {
+    height: 719px;
+}
 
-/* .navbar {
-    height: 240px;
-    background-color: white;
-} */
-
-/* .home-banner {
-    height: 100vh;
-    background-image: url("./assets/old-and-young-lady.jpg");
+.home-banner {
+    height: 719px;
+    background-image: url("../assets/old-and-young-lady.jpg");
     background-position: top;
     background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
     position: relative;
-    background-color: red;
+    background-color: rgb(48, 140, 133);
 }
 
 .overlay {
@@ -29,7 +24,7 @@
     z-index: 1;
 }
 
-.banner-text {
+.overlay-banner-text {
     width: 100%;
     font-size: 39px;
     font-family: rubik-light, sans-serif;
@@ -40,8 +35,73 @@
     position: absolute;
     bottom: 0;
     z-index: 2;
+    border: 1px solid white;
 }
 
-.banner-text .bold {
+.overlay-banner-text .bold {
     color: #1a1855;
-} */
+}
+
+.banner-text {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .home-container {
+        height: 719px;
+    }
+
+    .home-banner {
+        height: 719px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home-container {
+        height: 600px;
+    }
+
+    .home-banner {
+        height: 450px;
+        background-color: transparent;
+        position: "absolute";
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    .overlay-banner-text {
+        display: none;
+    }
+
+    .banner-text {
+        display: block;
+        width: 100%;
+        font-size: 30px;
+        font-family: rubik-light, sans-serif;
+        background-color: rgba(23, 35, 35, 0.4);
+        padding: 50px;
+        text-align: center;
+        color: #373b4d;
+        background-color: rgb(48, 140, 133);
+    }
+
+    .banner-text .bold {
+        color: #1a1855;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-container {
+        height: 250px;
+    }
+
+    .home-banner {
+        height: 200px;
+    }
+
+    .banner-text {
+        font-size: 20px;
+    }
+}
