@@ -1,0 +1,218 @@
+#about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color: rgb(233, 247, 248);
+}
+
+#about-us .header {
+    width: 60%;
+    font-size: 50px;
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    color: #1a1855;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#about-us .content {
+    width: 60%;
+    font-size: 16px;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    color: #1a1855;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+#about-us .content img {
+    float: right;
+    width: 498px;
+    height: 274px;
+    margin: 20px;
+    box-shadow: 35px -35px 0px rgb(216, 247, 244);
+}
+
+#our-mission-container {
+    background-color: rgb(233, 247, 248);
+}
+
+.our-mission {
+    padding-top: 100px;
+    background-color: rgb(233, 247, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    gap: 100px;
+}
+
+.our-mission img {
+    width: 60%;
+    width: 401px;
+    height: 221px;
+    box-shadow: 35px -35px 0px rgb(216, 247, 244);
+}
+
+.our-mission .right-container .heading {
+    width: 60%;
+    font-size: 50px;
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    color: #1a1855;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.our-mission .right-container p {
+    width: 60%;
+    font-size: 16px;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    color: #1a1855;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 100%;
+}
+
+#our-vision-container {
+    background-color: rgb(233, 247, 248);
+}
+
+.our-vision {
+    padding-top: 30px;
+    background-color: rgb(233, 247, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    gap: 100px;
+}
+
+.our-vision img {
+    width: 60%;
+    width: 401px;
+    height: 221px;
+    box-shadow: 35px -35px 0px rgb(216, 247, 244);
+}
+
+.our-vision .left-container .heading {
+    width: 60%;
+    font-size: 50px;
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    color: #1a1855;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.our-vision .left-container p {
+    width: 60%;
+    font-size: 16px;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    color: #1a1855;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 100%;
+}
+
+#core-values {
+    padding-top: 50px;
+    background-color: rgb(233, 247, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#core-values .heading {
+    width: 100%;
+    font-size: 50px;
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    color: #1a1855;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#core-values ol {
+    width: 75%;
+    font-size: 16px;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    color: #1a1855;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1200px) {
+    #about-us .header {
+        width: 90%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #about-us .content {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #about-us .content img {
+        float: none;
+        width: 380px;
+        height: 254px;
+        margin-bottom: 30px;
+    }
+
+    .our-mission {
+        flex-direction: column;
+        width: 90%;
+        gap: 40px;
+    }
+
+    .our-mission .right-container .heading {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .our-vision {
+        flex-direction: column;
+        width: 90%;
+        gap: 40px;
+    }
+
+    .our-vision .left-container .heading {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #core-values .heading {
+        font-size: 30px;
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .our-mission img {
+        width: 270px;
+        height: 149px;
+    }
+
+    .our-vision img {
+        width: 270px;
+        height: 149px;
+    }
+}
