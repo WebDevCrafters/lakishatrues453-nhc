@@ -1,35 +1,22 @@
-
-#slideshow-container {
-    width: 100%;
-    overflow: hidden;
-    height: 500px;
-    width: 1018px;
-    margin: 0 auto;
-}
+#slideshow-container {}
 
 .slides {
-    width: calc(1018px * 4);
-    animation: slide 25s ease infinite;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 .slides img {
     float: left;
-    width: 1018px;
+    width: 100%;
     height: 574px;
     cursor: pointer;
 }
 
-@keyframes slide {
-    20% {
-        margin-left: 0px;
-    }
-    40% {
-        margin-left: calc(-1018px * 1);
-    }
-    60% {
-        margin-left: calc(-1018px * 2);
-    }
-    80% {
-        margin-left: calc(-1018px * 3);
+@media screen and (max-width:900px) {
+    .slides img{
+        height: unset;
     }
 }
