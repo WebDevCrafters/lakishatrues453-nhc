@@ -54,7 +54,8 @@
 .navbar .routes .selected a {
     color: white;
 }
-.navbar .routes .member-portal{
+
+.navbar .routes .member-portal {
     display: none;
 }
 
@@ -93,7 +94,7 @@
     text-decoration: none;
 }
 
-.menu{
+.menu {
     display: none;
 }
 
@@ -102,22 +103,22 @@
         flex-direction: column;
     }
 
-    .navbar img{
+    .navbar img {
         width: 8rem;
         height: 8rem;
     }
 
-    .navbar .brand-name{
+    .navbar .brand-name {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .navbar .brand-name .first{
+    .navbar .brand-name .first {
         font-size: 3.5rem;
     }
 
-    .navbar .brand-name .second{
+    .navbar .brand-name .second {
         color: rgb(24, 80, 158);
         font-size: 3rem;
     }
@@ -131,20 +132,20 @@
         padding: 5rem 1rem;
         height: calc(100% - 10rem);
     }
-    
-    .navbar .routes .member-portal{
+
+    .navbar .routes .member-portal {
         display: block;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .navbar .routes .member-portal img{
+    .navbar .routes .member-portal img {
         height: 26px;
         width: 26px;
     }
 
-    .navbar .other-links{
+    .navbar .other-links {
         font-size: 1.1rem;
         font-weight: 500;
         padding: 10px 20px;
@@ -154,15 +155,15 @@
         gap: 10px;
     }
 
-    .navbar .other-links li{
+    .navbar .other-links li {
         margin: 0;
     }
 
-    .navbar .other-links .member-portal{
+    .navbar .other-links .member-portal {
         display: none;
     }
 
-    .menu{
+    .menu {
         display: block;
         background-color: #1A1855;
         position: absolute;
@@ -172,9 +173,9 @@
         right: 1rem;
     }
 
-    .menu img{
-        height: calc(100% - 1rem);
-        width: calc(100% - 1rem);
+    .menu img {
+        height: 100%;
+        width: 100%;
         padding: 0.5rem;
     }
 
