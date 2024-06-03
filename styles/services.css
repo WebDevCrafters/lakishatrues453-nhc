@@ -1,0 +1,116 @@
+#common-container {
+    background-color: rgb(233, 247, 248);
+}
+
+.image-and-text {
+    padding-top: 30px;
+    background-color: rgb(233, 247, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    gap: 100px;
+    padding-bottom: 50px;
+    border-bottom: 4px solid black;
+}
+
+.border {
+    border-bottom: 0 solid black;
+    padding-bottom: 100px;
+}
+
+.image-and-text img {
+    width: 60%;
+    width: 401px;
+    height: auto;
+    border-radius: 50%;
+    /* box-shadow: 10px 10px 10px 0px rgba(0, 0, 255, 0.5); Adds a blue box shadow */
+    border: 20px solid rgb(130, 201, 215);
+}
+
+.image-and-text .right-container .heading {
+    font-size: 30px;
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    color: #1a1855;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.image-and-text .right-container p {
+    font-size: 16px;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    color: #1a1855;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.image-and-text .left-container .heading {
+    font-size: 30px;
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    color: #1a1855;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.image-and-text .left-container p {
+    font-size: 16px;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    color: #1a1855;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.contact {
+    background-color: rgb(233, 247, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.contact h4 {
+    width: max-content;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1200px) {
+    .image-and-text {
+        flex-direction: column;
+        width: 90%;
+        gap: 40px;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .image-and-text .right-container .heading {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-and-text .left-container .heading {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .image-and-text img {
+        width: 272px;
+        height: 150px;
+        border: 15px solid rgb(130, 201, 215);
+    }
+}
