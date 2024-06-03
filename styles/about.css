@@ -186,7 +186,7 @@
     }
 
     .our-vision {
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 90%;
         gap: 40px;
     }
