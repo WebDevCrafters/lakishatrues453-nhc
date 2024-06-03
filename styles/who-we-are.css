@@ -1,0 +1,95 @@
+
+#who-we-are-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+    background-color: rgb(233, 247, 248);
+    position: relative;
+}
+
+#who-we-are-container .left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#who-we-are-container .left-container .heading {
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    color: #1a1855;
+    line-height: 1.35em;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#who-we-are-container .left-container .content {
+    border-radius: 10px;
+    width: 350px;
+    padding: 20px;
+    background-color: rgb(124, 201, 214);
+    font-size: 15px;
+    color: #1a1855;
+    font-family: bai jamjuree, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.3rem;
+}
+
+#who-we-are-container .right-container .heading {
+    display: none;
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    color: #1a1855;
+    line-height: 1.35em;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#who-we-are-container .right-container .img-container .img-1 {
+    width: 429px;
+    height: 260px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 8px solid rgb(216, 247, 244);
+}
+
+#who-we-are-container .right-container .img-container .img-2 {
+    width: 329px;
+    height: 303px;
+    position: absolute;
+    top: 280px;
+    right: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 8px solid rgb(216, 247, 244);
+}
+
+@media screen and (max-width: 900px) {
+    #who-we-are-container {
+        flex-direction: column;
+    }
+
+    #who-we-are-container .left-container .heading {
+        display: none;
+    }
+
+    #who-we-are-container .right-container .heading {
+        display: block;
+    }
+
+    #who-we-are-container .right-container .img-container .img-1 {
+        width: 281px;
+        height: 175px;
+    }
+
+    #who-we-are-container .right-container .img-container .img-3 {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #who-we-are-container .left-container .content {
+        width: 300px;
+        padding: 20px;
+    }
+}

@@ -21,3 +21,21 @@ menu.addEventListener("click", () => {
         routes.style.display = "none";
     }
 })
+
+
+
+if (window.innerWidth >= 800) {
+    window.addEventListener('scroll', function () {
+        var scrollPosition = window.scrollY;
+        var homeBanner = document.getElementById('homeBanner');
+        var overlay = document.querySelector('.overlay');
+        var opacity = Math.min(scrollPosition * 0.001, 1);
+        overlay.style.backgroundColor = `rgb(51, 211, 199, ${opacity})`;
+        homeBanner.style.backgroundSize = 'calc(100% + ' + scrollPosition * 1.5 + 'px)';
+    });
+
+    let index = 0;
+    const slides = document.querySelector('.slides');
+    const slideWidth = slides.clientWidth;
+    const totalSlides = slides.childElementCount;
+}

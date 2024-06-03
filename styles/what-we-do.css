@@ -1,0 +1,109 @@
+#what-we-do-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+    background-color: rgb(233, 247, 248);
+    padding-bottom: 150px;
+}
+
+#what-we-do-container .left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#what-we-do-container .left-container .heading {
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    color: #1a1855;
+    line-height: 1.35em;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#what-we-do-container .left-container .content {
+    border-radius: 10px;
+    width: 350px;
+    padding: 20px;
+    background-color: rgb(124, 201, 214);
+    font-size: 15px;
+    color: #1a1855;
+    font-family: bai jamjuree, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.3rem;
+}
+
+#what-we-do-container .right-container .heading {
+    display: none;
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    color: #1a1855;
+    line-height: 1.35em;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#what-we-do-container .right-container .img-container {
+    position: relative;
+}
+
+#what-we-do-container .right-container .img-container .img-1 {
+    width: 429px;
+    height: 260px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 8px solid rgb(216, 247, 244);
+}
+
+#what-we-do-container .right-container .img-container .img-2 {
+    z-index: 1;
+    width: 329px;
+    height: 303px;
+    position: absolute;
+    bottom: -250px;
+    left: 120px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 8px solid rgb(216, 247, 244);
+}
+
+#what-we-do-container .right-container .img-container .img-3 {
+    width: 421px;
+    height: 421px;
+}
+
+@media screen and (max-width: 900px) {
+    #what-we-do-container {
+        flex-direction: column;
+        padding-bottom: 200px;
+    }
+
+    #what-we-do-container .right-container .heading {
+        display: block;
+    }
+
+    #what-we-do-container .right-container .img-container .img-1 {
+        width: 281px;
+        height: 175px;
+    }
+
+    #what-we-do-container .right-container .img-container .img-2 {
+        z-index: 1;
+        width: 221px;
+        height: 203px;
+        bottom: -210px;
+        left: 30px;
+    }
+
+    #what-we-do-container .right-container .img-container .img-3 {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #what-we-do-container .left-container .content {
+        width: 300px;
+        padding: 20px;
+    }
+}
