@@ -16,6 +16,9 @@ $(document).ready(function () {
     // Function to check if element is in view
     function isElementInView(elem) {
         var $elem = $(elem);
+        if (!$elem) {
+            return
+        }
         var $window = $(window);
 
         var docViewTop = $window.scrollTop();
