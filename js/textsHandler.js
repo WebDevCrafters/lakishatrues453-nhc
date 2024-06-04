@@ -97,6 +97,55 @@ function handleText(data) {
         $(".core-value-9").text(data.coreValue.coreValue_9)
         $(".core-value-10").text(data.coreValue.coreValue_10)
     })
+
+    // Services Page:
+    $(function () {
+        $(".services-heading").text(data.services.brandName)
+        $(".services-content").text(data.services.subHeading)
+    })
+
+    // Personal Care Section:
+    $(function () {
+        $(".personalCare-heading").text(data.personalCare.heading)
+        $(".personalCare-content").text(data.personalCare.content)
+    })
+
+    // Companion Service Section:
+    $(function () {
+        $(".companionService-heading").text(data.companionService.heading)
+        $(".companionService-content").text(data.companionService.content)
+    })
+
+    // Light HouseKeeping Section:
+    $(function () {
+        $(".lightHourseKeeping-heading").text(data.lightHourseKeeping.heading)
+        $(".lightHourseKeeping-content").text(data.lightHourseKeeping.content)
+    })
+
+    // Meal Preparation Section:
+    $(function () {
+        $(".mealPreparation-heading").text(data.mealPreparation.heading)
+        $(".mealPreparation-content").text(data.mealPreparation.content)
+    })
+
+    // Transportation Section:
+    $(function () {
+        $(".tansportation-heading").text(data.tansportation.heading)
+        $(".tansportation-content").text(data.tansportation.content)
+    })
+
+    //  Respite Care Section:
+    $(function () {
+        $(".respiteCare-heading").text(data.respiteCare.heading)
+        $(".respiteCare-content").text(data.respiteCare.content)
+    })
+
+    // Specialized Care Section:
+    $(function () {
+        $(".specializedCare-heading").text(data.specializedCare.heading)
+        $(".specializedCare-content").text(data.specializedCare.content)
+    })
+
 }
 
 handleText(textJson)

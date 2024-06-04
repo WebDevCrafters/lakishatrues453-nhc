@@ -6,6 +6,15 @@ const textJson = {
         "brandSubHeading": "HOME CARE"
     },
 
+    // Footer Section:
+    "footer": {
+        "brandName": "NURTURED HOME CARE",
+        "address": "3525 Lake Avenue, Suite 1 and 2, Fort Wayne, Indiana, 46805",
+        "phone": "Tel: 260-418-9911",
+        "emailInfo": "Email: info@nhcindiana.com/ timeka@nhcindiana.com",
+        "copyRight": "©2023 by Nurtured Home Care Indiana"
+    },
+
     // Home Page:
     "banner": {
         "imageCaption": `NHC is now MEDICAID accredited! let your loved ones care for you and get paid!`
@@ -78,15 +87,6 @@ const textJson = {
             "At Nurtured Home Care Indiana, we understand and value each person's unique care needs. Contact us today to explore tailored home care solutions for older adults in your life. Share your details, and we'll promptly assess your needs and schedule a complimentary care assessment. For immediate assistance, please call us, and we'll be ready to help promptly."
     },
 
-    // Footer Section:
-    "footer": {
-        "brandName": "NURTURED HOME CARE",
-        "address": "3525 Lake Avenue, Suite 1 and 2, Fort Wayne, Indiana, 46805",
-        "phone": "Tel: 260-418-9911",
-        "emailInfo": "Email: info@nhcindiana.com/ timeka@nhcindiana.com",
-        "copyRight": "©2023 by Nurtured Home Care Indiana"
-    },
-
     // About Page:
     "aboutUs": {
         "heading": "About Us",
@@ -138,14 +138,61 @@ const textJson = {
             "Lifelong Learning: Emphasizing continuous education and training for caregivers, remaining current with best practices, the latest research findings, and technological advancements to provide the utmost quality of care.",
     },
 
-
     // Services Page:
     "services": {
         "brandName": "NURTURED HOME CARE",
         "subHeading":
             "At Nurtured Home Care, we offer compassionate home care services with friendly staff based in Fort Wayne, Indiana USA. Our team is dedicated to providing quality care and support to elderly and disabled individuals, and we strive to ensure that all our clients receive the highest standard of care. We are committed to providing personalized and respectful services to each and every one of our clients."
-    }
+    },
 
+    // Personal Care Section:
+    "personalCare": {
+        "heading": "PERSONAL CARE ASSISTANCE",
+        "content":
+            "Our Personal Care Assistance service provides dedicated support and assistance with daily activities such as bathing, dressing, grooming and medication reminders. Our caregivers are committed to providing the highest quality of care, while allowing clients to remain independent and living in the comfort of their own home."
+    },
+
+    // Companion Service Section:
+    "companionService": {
+        "heading": "COMPANION SERVICES",
+        "content":
+            "Our home care companionship service provides your loved ones with a trusted friend to engage in meaningful conversations, offer emotional support, and accompany them to outings and other activities. Our companions are dedicated to providing the highest quality of care and comfort to ensure your loved ones feel supported and safe."
+    },
+
+    // Light HouseKeeping Section:
+    "lightHourseKeeping": {
+        "heading": "LIGHT HOUSEKEEPING",
+        "content":
+            "At Nurtured Home Care, we offer light housekeeping services to our clients. Our experienced staff can assist with light household chores such as dusting, vacuuming, laundry, dishes, and more, allowing clients to focus on their health and wellbeing."
+    },
+
+    // Meal Preparation Section:
+    "mealPreparation": {
+        "heading": "MEAL PREPARATION",
+        "content":
+            "Our home care service can provide meal preparation to ensure that your loved one is getting the nutrition they need. Our experienced caregivers can plan and prepare nutritious and delicious meals tailored to individual dietary needs and preferences. We are committed to providing quality meals that will satisfy even the most selective eaters."
+    },
+
+    // Transportation Section:
+    "tansportation": {
+        "heading": "TRANSPORTATION",
+        "content":
+            "Our home care service offers reliable transportation for elderly and disabled individuals who need assistance running errands, attending medical appointments, and engaging in social activities. Our compassionate and experienced team of drivers will make sure that your loved one arrives at their destination safely and on time."
+    },
+
+    //  Respite Care Section:
+    "respiteCare": {
+        "heading": "RESPITE CARE",
+        "content":
+            "Respite care provides a much needed break for caregivers and family members. It offers temporary, supportive care for individuals who need assistance with activities of daily living. Our respite care services can be tailored to meet the needs of each individual and provide peace of mind for their family"
+    },
+
+    // Specialized Care Section:
+    "specializedCare": {
+        "heading": "SPECIALIZED CARE",
+        "content":
+            "At Nurtured Home Care, we offer a specialized care service provided by caregivers who are extensively trained in providing care for individuals with dementia, Alzheimer's Disease, Parkinson's Disease and other chronic illnesses. Our caregivers are experienced and knowledgeable in providing specialized care to help ensure the best possible outcomes for our patients."
+    },
 }
 
 
