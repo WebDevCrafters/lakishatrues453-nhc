@@ -1,6 +1,6 @@
 /*
     texts
-    animations
+    animations ------done
     attach links ---------done
     host   ----------------------done
     title 
