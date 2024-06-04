@@ -6,6 +6,8 @@
     padding-top: 40px;
     background-color: rgb(233, 247, 248);
     padding-bottom: 150px;
+    gap: 100rem;
+    transition: gap 1s ease;
 }
 
 #what-we-do-container .left-container {
@@ -74,6 +76,7 @@
 
 @media screen and (max-width: 900px) {
     #what-we-do-container {
+        gap: unset;
         flex-direction: column;
         padding-bottom: 200px;
     }

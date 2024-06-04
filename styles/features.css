@@ -16,6 +16,8 @@
 }
 
 #features-container .feature-list {
+    opacity: 0;
+    transition: opacity 3s ease;
     height: max-content;
     width: 240px;
     display: flex;
@@ -69,6 +71,7 @@
 
 @media screen and (max-width: 900px) {
     #features-container {
+        opacity: 1;
         padding: 50px 100px;
         gap: 10px;
     }
@@ -76,6 +79,7 @@
 
 @media screen and (max-width: 660px) {
     #features-container {
+        opacity: 1;
         align-items: center;
         justify-content: center;
         width: 100%;
