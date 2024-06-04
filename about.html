@@ -14,6 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap"
         rel="stylesheet">
+    <script src="./js/jquery.js"></script>
 </head>
 
 <body>
@@ -60,35 +61,38 @@
     </nav>
 
     <section id="about-us">
-        <div class="header">
+        <div class="header about-us-heading">
             About us
         </div>
-        <p class="content">
+        <p class="content ">
             <img src="./assets/about-us.png" alt="">
-            We are a rising home care agency based in Fort Wayne, Indiana, dedicated to providing specialized and
-            exceptional home care services. With a team of competent caregivers and a commitment to delivering
-            compassionate care, we strive to offer the highest level of support that your loved ones deserve.
-            <br>
-            <br>
-            At Nurtured Home Care-Indiana, we believe that exceptional care should be accessible to all. We are
-            committed to offering affordable prices without compromising on the quality of our services. Our goal is to
-            provide peace of mind to both clients and their families, knowing that their loved ones are receiving
-            top-notch care at a reasonable cost.
-            <br>
-            <br>
-            We take pride in our team of competent caregivers who are carefully selected, undergo thorough background
-            checks, and receive ongoing training to ensure they meet the highest standards of care. Their dedication,
-            empathy, and expertise enable us to deliver exceptional care that goes beyond the physical needs of our
-            clients. We understand the importance of emotional support and companionship, and we strive to create a
-            compassionate and supportive environment for every individual under our care.
-            <br>
-            <br>
-            We are proud to serve the Fort Wayne community and surrounding areas, making a positive impact on the lives
-            of individuals and their families. With our specialized home care services, competent caregivers, and
-            affordable prices, we are dedicated to providing the exceptional care that your loved ones deserve.
-            <br>
-            Contact us today to learn more about our services and how we can support you and your family in your home
-            care needs.
+            <span id="about-us-content">
+                <br>
+                At Nurtured Home Care-Indiana, we believe that exceptional care should be accessible to all. We are
+                committed to offering affordable prices without compromising on the quality of our services. Our goal is
+                to
+                provide peace of mind to both clients and their families, knowing that their loved ones are receiving
+                top-notch care at a reasonable cost.
+                <br>
+                <br>
+                We take pride in our team of competent caregivers who are carefully selected, undergo thorough
+                background
+                checks, and receive ongoing training to ensure they meet the highest standards of care. Their
+                dedication,
+                empathy, and expertise enable us to deliver exceptional care that goes beyond the physical needs of our
+                clients. We understand the importance of emotional support and companionship, and we strive to create a
+                compassionate and supportive environment for every individual under our care.
+                <br>
+                <br>
+                We are proud to serve the Fort Wayne community and surrounding areas, making a positive impact on the
+                lives
+                of individuals and their families. With our specialized home care services, competent caregivers, and
+                affordable prices, we are dedicated to providing the exceptional care that your loved ones deserve.
+                <br>
+                Contact us today to learn more about our services and how we can support you and your family in your
+                home
+                care needs.
+            </span>
         </p>
     </section>
 
@@ -98,8 +102,9 @@
                 <img src="./assets//our-mission.png" alt="">
             </div>
             <div class="right-container">
-                <div class="heading">Our Mission</div>
-                <p>Our mission is to provide personalized, high-quality care and support to individuals in their homes,
+                <div class="heading our-mission-heading">Our Mission</div>
+                <p class="our-mission-content">Our mission is to provide personalized, high-quality care and support to
+                    individuals in their homes,
                     enhancing their overall well-being and quality of life. Key aspects include client-centered care,
                     promoting
                     independence and dignity, employing skilled and compassionate staff, prioritizing safety and
@@ -108,7 +113,6 @@
                     support.
                     Nurtured Home Care aims to enable individuals to live with dignity and independence by offering
                     compassionate, personalized, and professional care services.
-
                 </p>
             </div>
         </section>
@@ -117,8 +121,9 @@
     <section id="our-vision-container">
         <section class="our-vision">
             <div class="left-container">
-                <div class="heading">Our Vision</div>
-                <p>Our vision is to become the leading home care agency in Fort Wayne, Indiana, and the surrounding
+                <div class="heading our-vision-heading">Our Vision</div>
+                <p class="our-vision-content">Our vision is to become the leading home care agency in Fort Wayne,
+                    Indiana, and the surrounding
                     areas, known for providing exceptional personalized care that enables individuals to thrive in the
                     familiarity and comfort of their homes. We imagine a future where every client receives
                     compassionate support, preserves their independence, and experiences an improved quality of life.
@@ -134,34 +139,44 @@
     </section>
 
     <section id="core-values">
-        <div class="heading">Core Values</div>
+        <div class="heading core-value-heading">Core Values</div>
         <ol>
-            <li><strong>Compassion:</strong> Demonstrating heartfelt empathy and care for clients, acknowledging their
+            <li class="core-value-1"><strong>Compassion:</strong> Demonstrating heartfelt empathy and care for clients,
+                acknowledging their
                 unique needs, and treating them with genuine kindness and respect.</li>
-            <li><strong>Integrity:</strong> Upholding moral principles, practicing honesty, transparency, and
+            <li class="core-value-2"><strong>Integrity:</strong> Upholding moral principles, practicing honesty,
+                transparency, and
                 trustworthiness in all interactions with clients, their families, and fellow healthcare professionals.
             </li>
-            <li><strong>Excellence:</strong> Striving for exceptional care delivery by upholding rigorous standards,
+            <li class="core-value-3"><strong>Excellence:</strong> Striving for exceptional care delivery by upholding
+                rigorous standards,
                 continuously enhancing practices, and providing highly skilled and competent caregivers.</li>
-            <li><strong>Client-Centered Approach:</strong> Placing clients at the core of care provision, customizing
+            <li class="core-value-4"><strong>Client-Centered Approach:</strong> Placing clients at the core of care
+                provision, customizing
                 services to meet their specific needs, preferences, and goals, and actively involving them in
                 decision-making processes.</li>
-            <li><strong>Independence and Dignity:</strong> Respecting and advocating for clients' autonomy and
+            <li class="core-value-5"><strong>Independence and Dignity:</strong> Respecting and advocating for clients'
+                autonomy and
                 self-worth, empowering them to exercise choice and maintain control over their lives to the greatest
                 extent possible.</li>
-            <li><strong>Collaboration:</strong> Fostering close collaboration among clients, their families, and
+            <li class="core-value-6"><strong>Collaboration:</strong> Fostering close collaboration among clients, their
+                families, and
                 healthcare professionals involved in their care, promoting open and effective communication, and working
                 together as a unified team to achieve optimal outcomes.</li>
-            <li><strong>Safety and Well-being:</strong> Prioritizing clients' safety and overall well-being by
+            <li class="core-value-7"><strong>Safety and Well-being:</strong> Prioritizing clients' safety and overall
+                well-being by
                 implementing comprehensive safety measures, stringent infection control protocols, and creating a secure
                 environment for care provision.</li>
-            <li><strong>Continuity of Care:</strong> Establishing enduring relationships with clients, ensuring
+            <li class="core-value-8"><strong>Continuity of Care:</strong> Establishing enduring relationships with
+                clients, ensuring
                 consistent and dependable care over an extended period, and facilitating smooth transitions in care as
                 circumstances evolve.</li>
-            <li><strong>Professionalism:</strong> Demonstrating a professional demeanor at all times, adhering to
+            <li class="core-value-9"><strong>Professionalism:</strong> Demonstrating a professional demeanor at all
+                times, adhering to
                 ethical guidelines, respecting privacy and confidentiality, and complying with regulations and industry
                 standards.</li>
-            <li><strong>Lifelong Learning:</strong> Emphasizing continuous education and training for caregivers,
+            <li class="core-value-10"><strong>Lifelong Learning:</strong> Emphasizing continuous education and training
+                for caregivers,
                 remaining current with best practices, the latest research findings, and technological advancements to
                 provide the utmost quality of care.</li>
         </ol>
@@ -189,5 +204,7 @@
 
 </body>
 <script src="script.js"></script>
+<script src="./text.js"></script>
+<script src="./js/textsHandler.js"></script>
 
 </html>
