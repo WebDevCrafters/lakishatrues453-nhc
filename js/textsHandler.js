@@ -146,6 +146,17 @@ function handleText(data) {
         $(".specializedCare-content").text(data.specializedCare.content)
     })
 
+    // Carrers Page:
+    $(function () {
+        $(".line-1").text(data.carrers.line_1)
+        $(".line-2").text(data.carrers.line_2)
+        $(".carrer-content").text(data.carrers.content)
+        $(".step-1").text(data.carrers.step_1)
+        $(".step-2").text(data.carrers.step_2)
+        $(".step-3").text(data.carrers.step_3)
+        $("#last-content").text(data.carrers.last_content)
+    })
+
 }
 
 handleText(textJson)

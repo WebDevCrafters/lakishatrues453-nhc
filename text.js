@@ -59,9 +59,7 @@ const textJson = {
 
     // Who are we Section:
     "whoAreWe": {
-
         "heading": "WHO ARE WE",
-
         "content":
             "Nurtured Home Care-Indiana is a licensed, bonded, and insured home care agency serving the State of Indiana, USA. Our team brings together decades of experience in the healthcare field to provide a comprehensive and personalized approach that meets the unique needs of our clients. With a focus on addressing gaps in patient care, we have built a reputation as a premier agency. We offer high-quality in-home care services at affordable prices. Our dedicated staff is available 24/7, ready to serve you and your family. Give us a call today!"
     },
@@ -193,6 +191,26 @@ const textJson = {
         "content":
             "At Nurtured Home Care, we offer a specialized care service provided by caregivers who are extensively trained in providing care for individuals with dementia, Alzheimer's Disease, Parkinson's Disease and other chronic illnesses. Our caregivers are experienced and knowledgeable in providing specialized care to help ensure the best possible outcomes for our patients."
     },
+
+    // Carrers Page:
+    "carrers": {
+        "line_1": "BE A",
+        "line_2": "Caregiver",
+        "content":
+            "Nurtured Home Care-Indiana is dedicated to recruiting caregivers who possess exceptional skills, compassion, and dependability, and who can truly make a meaningful impact on the lives of our clients. Through our thorough and comprehensive three-step hiring process, we carefully choose individuals who are best suited to deliver personalized care services.",
+
+        // Step 1 Section:
+        "step_1": "Complete and verify all the required details in the application form provided via the given link and make sure to have taken TB Test.",
+
+        // Step 2 Section:
+        "step_2": "In order to get an orientation schedule, make sure you must have the following: Valid Driver's License Transportation with valid Proof of Insurance 2 Forms Identification (State Issued ID/Passport and Social Number)",
+
+        // Step 3 Section:
+        "step_3": "If you have complied with all the necessary requirements and documents, you will be scheduled for a company orientation and a warm welcome into our family! Good Luck!",
+
+        // Last Content Section:
+        "last_content": `When you opt for Nurtured Home Care Indiana, you can have peace of mind knowing that the caregiver assigned to your loved one has undergone a rigorous selection process and possesses the necessary skills to deliver exceptional care. If you are a caregiver seeking to be part of a dedicated team that strives to make a positive impact, we encourage you to submit your application today.
+
+        Come alongside us as we embark on our mission to enrich lives, one home at a time.`,
+    },
 }
-
-
