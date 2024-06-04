@@ -8,6 +8,7 @@
     padding-bottom: 150px;
     gap: 100rem;
     transition: gap 1s ease;
+    overflow: hidden;
 }
 
 #what-we-do-container .left-container {
