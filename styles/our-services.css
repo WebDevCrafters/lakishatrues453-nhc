@@ -34,7 +34,8 @@
 #our-services .img-container .old-man-woman {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: -40rem;
+    transition: left 2s ease;
     width: 448px;
 }
 

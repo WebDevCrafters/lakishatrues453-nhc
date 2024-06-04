@@ -5,6 +5,8 @@
     height: 500px;
     padding: 50px 340px;
     position: relative;
+    gap: 100rem;
+    transition: gap 1s ease;
 }
 
 #experience-container .header-container {
@@ -89,6 +91,7 @@
 @media screen and (max-width: 500px) {
     #experience-container {
         padding-bottom: 60px;
+        gap: unset;
     }
 
     #experience-container .left-container {
