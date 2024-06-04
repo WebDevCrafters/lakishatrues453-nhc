@@ -30,7 +30,7 @@ function handleResize() {
     }
     if (width <= 950) {
         var homeBanner = document.getElementById('homeBanner');
-        homeBanner.style.backgroundImage = "url('../assets/old-and-young-lady-2.jpg')";
+        homeBanner.style.backgroundImage = "url('old-and-young-lady-2.jpg')";
     }
 }
 
