@@ -2,7 +2,7 @@ const textJson = {
 
     // Navbar Section:
     "navbar": {
-        "brandName": "NURTURED",
+        "brandName": "Eissa",
         "brandSubHeading": "HOME CARE"
     },
 
